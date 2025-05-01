@@ -1,0 +1,153 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 2px;
+    text-align: center;
+    background-image: linear-gradient(to top, skyblue, white);
+}
+
+h1, h2, h3, h4, p{
+    text-align: center;
+    font-family: cursive;
+}
+
+.hero-section{
+    background-image: url("images/kilifi-creek.jpeg");
+    width:auto;
+    height: 400px;
+    margin: 0 5px ;
+    padding: 2px;
+    text-align: center;
+    border-top: 2px;
+}
+
+#message{
+    background-color: #1D3557;
+    color: #F1FAEE;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;  
+}
+
+#greetings:hover{
+    background-color: #bde0fe;
+    color: black;
+}
+
+.activities-section{
+    width:95%;
+    height: fit-content;
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+    background-image: linear-gradient(to bottom, #FFFFFF, #015482, #C9B194);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.top-activities-section{
+    display: flex;
+    height: 90%;
+    justify-content: space-between;
+}
+
+#first{
+    display: flex;
+    width: fit-content;
+    height: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#first img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#second img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#second{
+    display: flex;
+    width: fit-content;
+    height: 300px;
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+#third img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#third{
+    display: flex;
+    width: fit-content;
+    height: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.guide-section{
+    width: 50%;
+    height: 300px;
+    margin: 0px auto;
+    border-radius: 7px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #ccd5ae;
+}
+
+.guide-section img{
+    background-color: #ccd5ae;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#greetings{
+    background-color: #2596be;
+    color: #F1FAEE;
+    width: fit-content;
+    padding: 0 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#profile {
+    width: fit-content;
+    height: 50px;
+}
+
+.footer-section{
+    text-align: center;
+    width: 95%;
+    background-color: #2596be;
+    margin: 4px auto;
+    padding: 2px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#email-footer:hover{
+    background-color: black;
+    color: white;
+}
